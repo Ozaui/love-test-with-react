@@ -58,7 +58,6 @@ function MainCard() {
           zIndex: 9999,
         }}
       />
-
       <img src={image} />
       <h2>Merhaba Aşkımm</h2>
       <h3>Beni seviyor musun?</h3>
@@ -96,7 +95,8 @@ function MainCard() {
         >
           Hayır
         </button>
-      </div>
+      </div>{" "}
+      <p style={{ color: "purple" }}>developed by Ozaui</p>
     </div>
   );
 }
