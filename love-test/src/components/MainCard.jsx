@@ -45,7 +45,7 @@ function MainCard() {
     >
       <ToastContainer
         position="top-center"
-        autoClose={3000}
+        autoClose={4000}
         limit={1}
         style={{
           position: "fixed",
